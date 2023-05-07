@@ -1,0 +1,12 @@
+
+✴️ Note:- Stack me ▶️ s.top() ◀️ tab likhana jab stack empty na ho (yani ki khali na ho or element ho)
+
+✴️ Practicle :- go to main2.cpp file
+
+1️⃣ Question: Insert At bottom
+2️⃣ Question: Reverse Stack 
+3️⃣ Question: Vaild Parentheses (Question Have at Leetcode)
+    🔗https://leetcode.com/problems/valid-parentheses/         
+4️⃣ Question: Sort a Stack
+5️⃣ Question: Remove Redundant Brackets
+

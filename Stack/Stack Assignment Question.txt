@@ -1,0 +1,14 @@
+
+1️⃣ Minimum Bracket Reversal :- 🔗https://practice.geeksforgeeks.org/problems/count-the-reversals0401/1
+2️⃣ Remove All Adjacent Duplicates in String 🔗[https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/]
+3️⃣ Celebrity Problem
+4️⃣ Max rectangle in Binary Matrix with all 1s [DP will be used, can be postponed]
+5️⃣ Next greater element in Linked List [leetcode]
+6️⃣ N Stack in an Array
+7️⃣ Online Stock Span [leetcode]
+8️⃣ Check If Word is Vaild After Substitutions [Leetcode]
+9️⃣ Decode Strings [Leetcode]
+🔟 Car Fleet - I [Leetcode]
+1️⃣1️⃣ Car Fleet - II [Leetcode]
+1️⃣2️⃣ Simplify Path [Leetcode]
+
