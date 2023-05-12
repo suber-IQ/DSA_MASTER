@@ -1,10 +1,10 @@
 
 1️⃣ Minimum Bracket Reversal :- 🔗https://practice.geeksforgeeks.org/problems/count-the-reversals0401/1
-2️⃣ Remove All Adjacent Duplicates in String 🔗[https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/]
-3️⃣ Celebrity Problem
+2️⃣ Remove All Adjacent Duplicates in String :- 🔗[https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/]
+3️⃣ Celebrity Problem :- 🔗[https://practice.geeksforgeeks.org/problems/the-celebrity-problem/1]
 4️⃣ Max rectangle in Binary Matrix with all 1s [DP will be used, can be postponed]
-5️⃣ Next greater element in Linked List [leetcode]
-6️⃣ N Stack in an Array
+5️⃣ Next greater element in Linked List [https://leetcode.com/problems/next-greater-node-in-linked-list/description/]
+6️⃣ N Stacks in an Array
 7️⃣ Online Stock Span [leetcode]
 8️⃣ Check If Word is Vaild After Substitutions [Leetcode]
 9️⃣ Decode Strings [Leetcode]

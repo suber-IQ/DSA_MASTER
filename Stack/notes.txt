@@ -1,0 +1,12 @@
+👉Use Stack real life Uses
+    ✴️Stack is a fundamental data structure in computer science and is used in many real-life scenarios. Some examples of where stack is used are: 
+
+    1️⃣Web browsing: When you visit a website, the browser stores the pages you have visited in a stack. This is called the browser history. You can go back to the previous page by popping the top element from the stack.
+
+    2️⃣Undo/Redo functionality: Many software applications use stack to implement the undo/redo functionality. Every action you perform is stored in a stack. If you want to undo a step, the last action is popped from the stack and undone.
+
+    3️⃣Call stack: When you run a program, the computer uses a call stack to keep track of the functions that are being executed. Each time a function is called, it is pushed onto the stack. When the function completes, it is popped from the stack.
+
+    4️⃣Text editors: Text editors use stack to store the text you have typed. When you type a character, it is pushed onto the stack. When you press the backspace key, the last character is popped from the stack.
+
+    5️⃣Expression evaluation: In programming, stack is used to evaluate arithmetic expressions. The expressions are converted to postfix notation and then evaluated using stack.
