@@ -1,1 +1,8 @@
-//👉 Printing Linked List
+✴️ go to main.cpp file
+
+//1️⃣ Printing Linked List
+//2️⃣Insert At Head
+//3️⃣Insert At Tail
+//4️⃣ Insert At Position
+//5️⃣ Delete Node
+

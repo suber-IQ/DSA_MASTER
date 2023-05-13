@@ -115,6 +115,62 @@ void insertAtPosition(int data,int position, Node* &head, Node* &tail){
      prev->next = newNode;
 }
 
+void deleteNode(int position, Node* &head, Node* &tail) {
+        if(head == NULL) {
+                cout << "Cannot delete, LL is empty";
+                return;
+        }
+
+        //deleting first node
+        if(position == 1) {
+                Node* temp = head;
+                head = head -> next;
+                temp -> next = NULL;
+                delete temp;
+                return;
+        }
+        int len  = getLength(head);
+
+
+        //deleting last node
+        if(position == len) {
+                //find prev
+                int i = 1;
+                Node* prev = head;
+                while(i < position - 1) {
+                        prev = prev->next;
+                        i++;
+                }
+                //step2:
+                prev->next = NULL;
+                //step3:
+                Node* temp = tail;
+                //step4:
+                tail = prev;
+                //step5:
+                delete temp;
+                return;
+        }
+
+        //deleting middle node
+
+        //step  : find prev and curr
+        int i =1;
+        Node* prev = head;
+        while( i < position-1) {
+                prev= prev -> next;
+                i++;
+        }
+        Node* curr = prev -> next;
+
+        //step2:
+        prev -> next = curr -> next;
+        //step3:
+        curr -> next = NULL;
+        //step4:
+        delete curr;
+}
+
 int main(){
 
 //👉 Printing Linked List
@@ -149,17 +205,17 @@ int main(){
 // 👉 insert at position
 
 
-       Node* head = NULL;
-        Node* tail = NULL;
-        insertAtHead(head, tail,20);
-        insertAtHead(head, tail,50);
-        insertAtHead(head, tail,60);
-        insertAtHead(head,tail, 90);
-        insertAtTail(head, tail, 77);
+      //  Node* head = NULL;
+      //   Node* tail = NULL;
+      //   insertAtHead(head, tail,20);
+      //   insertAtHead(head, tail,50);
+      //   insertAtHead(head, tail,60);
+      //   insertAtHead(head,tail, 90);
+      //   insertAtTail(head, tail, 77);
 
-print(head);
+// print(head);
 
- cout << "head: " << head->data << endl;
+//  cout << "head: " << head->data << endl;
 //         cout << "tail: " << tail->data << endl;
 
 //         insertAtPosition(101, 2, head, tail);
@@ -168,5 +224,24 @@ print(head);
 //         cout << endl;
 //         cout << "head: " << head -> data << endl;
 //         cout << "tail: " << tail->data << endl;
+
+// 👉 Delete Node
+
+        Node* head = NULL;
+        Node* tail = NULL;
+        insertAtHead(head, tail,20);
+        insertAtHead(head, tail,50);
+        insertAtHead(head, tail,60);
+        insertAtHead(head,tail, 90);
+        // insertAtTail(head, tail, 77);
+
+  //  90 60 50 20
+
+
+        deleteNode(4, head, tail);
+        cout << endl;
+        print(head);
+        cout << endl;
+
 return 0;
 }
