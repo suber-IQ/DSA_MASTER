@@ -1,0 +1,10 @@
+⭐ go to main3.cpp file
+
+1️⃣Find Middle of Linked List
+2️⃣Reverse K node
+  👉 Detect & Delete Loop
+3️⃣check loop present or not on Linked List 
+4️⃣starting point Loop on Linked List 
+5️⃣Remove Loop on L.L
+
+
