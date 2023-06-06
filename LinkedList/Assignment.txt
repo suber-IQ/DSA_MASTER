@@ -1,0 +1,10 @@
+1️⃣ Merge 2 sorted Linked List
+2️⃣ Clone a Linked List with Random Pointer
+3️⃣ Merge Sort in Linked List
+4️⃣ Flatten a Linked List
+5️⃣ Print kth node from end of Linked List
+6️⃣ Intersection point of 2 Linked List
+7️⃣ Rotate List (Leetcode)
+8️⃣ Delete n nodes after m nodes (Leetcode)
+9️⃣ Find min/max number between critical points(Leetcode)
+1️⃣0️⃣ Merge Node in between zeroes (Leetcode)

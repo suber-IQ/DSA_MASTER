@@ -1,0 +1,10 @@
+
+
+//1️⃣ whether Palindrome not or yes // :- Time Complexity O(n);
+//2️⃣ Remove duplicate from a Sorted on LL // :- Time Complexity O(n);
+3️⃣ Sorted 0's,1's,2's 🌟Method 1: sortZeroOneTwoWithReplacement & Method 2: sort2// :- Time Complexity O(n)
+4️⃣ Add 2 numbers represented by Linked List O(max(m,n))
+ 
+ 👉 Homework 
+//5️⃣ Remove duplicate from a UnSorted on LL // :- Time Complexity O(n);
+6️⃣ Merge 2 Sorted Linked List
