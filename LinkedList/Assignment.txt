@@ -1,6 +1,6 @@
-1️⃣ Merge 2 sorted Linked List
-2️⃣ Clone a Linked List with Random Pointer
-3️⃣ Merge Sort in Linked List
+1️⃣ Merge 2 sorted Linked List (leetcode)
+2️⃣ Clone a Linked List with Random Pointer (leetcode) 🔗https://leetcode.com/problems/copy-list-with-random-pointer/description/
+3️⃣ Merge Sort in Linked List ( Leetcode) 🔗https://leetcode.com/problems/sort-list/description/
 4️⃣ Flatten a Linked List
 5️⃣ Print kth node from end of Linked List
 6️⃣ Intersection point of 2 Linked List
