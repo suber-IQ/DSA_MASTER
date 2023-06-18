@@ -200,6 +200,96 @@ struct Node{
 //    return mergedLL;
 // }
 
+int findLength(Node* &head){
+    Node* temp = head;
+    int len = 0;
+    while(temp != NULL){
+        len++;
+        temp = temp->next;
+    }
+    return len;
+}
+
+//🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟
+// 5️⃣ Print kth node from end of Linked List
+
+int findEndOfK(Node* &head,int k){
+    if(head == NULL){
+        return -1;
+    }
+    int len = findLength(head);
+    int position = len - k;
+     if(position < 0){
+        return -1;
+    }
+    Node* temp = head;
+    for(int i=1;i<position;i++){
+        temp = temp->next;
+    }
+    return temp->data;
+}
+
+//👉METHOD #2 RECURSIVE 5️⃣ Print kth node from end of Linked List
+
+void recusiveFun(Node* &head,int &positionEndTail,int &ans){
+    if(head == NULL){
+        return;
+    }
+    recusiveFun(head->next,positionEndTail,ans);
+    if(positionEndTail == 0){
+        ans = head->data;
+    }
+    positionEndTail--;
+}
+int findEndOfkMethod2(Node* &head, int positionEndTail){
+    int ans;
+    recusiveFun(head, positionEndTail,ans);
+    return ans;
+}
+
+//🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟
+// 6️⃣ Intersection point of 2 Linked List (leetcode)
+//  ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
+//       ListNode* a = headA;
+//         ListNode* b = headB;
+
+//         while(a->next && b->next){
+//             if(a== b){
+//                 return a;
+//             }
+//             a = a->next;
+//             b = b->next;
+//         }
+        
+//         if(a->next == NULL && b->next == NULL && a->next != b->next) return NULL;
+
+//         if(a->next == NULL){
+//             // b is bigger or equal
+//             int lenb = 0;
+//             while(b->next != NULL){
+//                 lenb++;
+//                 b = b->next;
+//             }
+//             while(lenb--){
+//                 headB = headB->next;
+//             }
+//         }else{
+//             int lena = 0;
+//             while(a->next != NULL){
+//                 lena++;
+//                 a = a->next;
+//             }
+//             while(lena--){
+//                 headA = headA->next;
+//             }
+//         }
+
+//         while(headA != headB){
+//             headA = headA->next;
+//             headB = headB->next;
+//         }
+//         return headA;
+//     }
 
 int main() {
     //🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟
@@ -243,6 +333,29 @@ int main() {
 
 // head = sortList(head);
 // print(head);
+//🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟
+// 5️⃣ Print kth node from end of Linked List
+
+// Node* head = new Node(1);
+// Node* second = new Node(2);
+// Node* third = new Node(3);
+// Node* fourth = new Node(4);
+// Node* fifth = new Node(5);
+
+// head->next = second;
+// second->next = third;
+// third->next = fourth;
+// fourth->next = fifth;
+// fifth->next = NULL;
+
+// cout << findEndOfK(head,3) << endl;  // output:- 2
+
+// cout << findEndOfkMethod2(head,3) << endl; // output:- 2
+
+
+
+
+
 
 
 
