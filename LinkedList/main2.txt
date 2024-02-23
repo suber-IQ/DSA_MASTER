@@ -1,9 +1,0 @@
-✴️ go to main2.cpp file
-
-//1️⃣ Printing doubly Linked List
-//2️⃣Insert At Head doubly Linked List
-//3️⃣Insert At Tail doubly Linked List
-//4️⃣ Insert At Position doubly Linked List
-//5️⃣ Delete Node from any position doubly Linked List
-//6️⃣ Reverse Node using recusive doubly linked list
-//7️⃣ Reverse Node using simple Loop doubly linked list

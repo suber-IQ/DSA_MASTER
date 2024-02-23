@@ -3,6 +3,340 @@
 ![DSA_MASTER](https://res.cloudinary.com/suberiq/image/upload/v1683910943/MASTER_DSA-min_tffosd.png)
 
 # ***Question***
+
+## Flowchart & Pseudocode (01_Basic of Programming)
+
+1. Find Circumference of a Circle.
+2. Addtion of Two Number.
+3. Average of numbers.
+4. Even or Odd of numbers.
+5. Student & Grade.
+6. Multiply 2 no. by taking input (Homework)
+7. Find Perimeter of  a Triangle
+8. Find Simple Interest
+9. Print counting from N to 1.
+10. Find Factorial of a number
+11. Check Prime or not.
+12. Valid Trianle or Not
+13. Printing 1 to N but only even numbers.
+14. Print max of three numbers
+15. Check number is +ve,-ve or 0.
+16. Print counting from 1 to N.
+17. Add N numbers from user
+18. Printing 1 to N but only odd numbers
+
+## Pattern (Basic of Programming Solution - pattern.cpp)
+
+ <details>    
+  <summary>1. Solid rectangle star pattern </summary>
+  
+       // * * * * * 
+       // * * * * * 
+       // * * * * *
+ </details>    
+ <details>    
+  <summary>2. Square star pattern </summary>
+
+     // * * * * 
+     // * * * * 
+     // * * * * 
+     // * * * *
+ </details>    
+<details>    
+  <summary>3. Hollow star Rectangle </summary>
+
+     // * * * * * 
+     // *       * 
+     // * * * * *
+ </details>    
+
+ <details>    
+  <summary>4. Half star Pyramid </summary>
+
+      // *
+      // *  *
+      // *  *  *
+      // *  *  *  *  
+      // *  *  *  *  *     
+ </details>    
+ 
+ <details>    
+  <summary>5. Inverted Half star Pyramid </summary>
+
+         // * * * * *   
+         // * * * *   
+         // * * *   
+         // * *  
+         // *  
+ </details>    
+ 
+ <details>    
+  <summary>6. Numerice Half Pyramid </summary>
+
+        // 1
+        // 12
+        // 123
+        // 1234
+        // 12345
+ </details>    
+ 
+ <details>    
+  <summary>7. Inverted Half Pyramid </summary>
+
+        // 12345
+        // 1234
+        // 123
+        // 12
+        // 1
+ </details>    
+
+ <details>    
+  <summary>8. Full star Pyramid</summary>
+
+        //    *
+        //   * *
+        //  * * *
+        // * * * *
+       // * * * * *
+ </details>   
+
+ <details>    
+  <summary>9. Inverted Full star Pyramid</summary>
+
+        // * * * * *
+        //  * * * *
+        //   * * *
+        //    * *
+       //      *
+ </details>    
+
+ <details>    
+  <summary>*10. Numerice Full Pyramid</summary>
+
+        //     1
+        //   2 3 2
+      //   3 4 5 4 3 
+     //  4 5 6 7 6 5 4
+    // 5 6 7 8 9 8 7 6 5 
+
+ </details>  
+
+ <details>    
+  <summary>*11. Numerice Hollow Full Pyramid</summary>
+
+        //    1
+        //   1 2
+        //  1   3
+        // 1     4
+       // 1 2 3 4 5
+ </details> 
+
+ <details>    
+  <summary>12. Hollow Square Star Pattern </summary>
+
+     // * * * * * 
+     // *       * 
+     // *       * 
+     // *       * 
+     // * * * * *
+ </details> 
+
+  <details>    
+  <summary>13. Hollow Inverted Half Pyramid</summary>
+
+         // * * * * *   
+         // *     *   
+         // *   *   
+         // * *  
+         // *  
+ </details>    
+
+<details>    
+  <summary>14.Hollow Full star Pyramid</summary>
+
+        //    *
+        //   * *
+        //  *   *
+        // *     *
+       // * * * * *
+ </details>  
+
+<details>    
+  <summary>15. Solid Diamond star pattern(02_Basic_programing-II-pattern.cpp)</summary> 
+    
+           // *
+        //   * *
+        //  * * *
+        // * * * *
+       // * * * * *
+       // * * * * *
+       //  * * * *
+       //   * * *
+        //   * *
+       //     *
+ </details>    
+<details>    
+  <summary>16. Star Hollow Diamond</summary> 
+    
+           // *
+        //   * *
+        //  *   *
+        // *     *
+       // *       *
+       // *       *
+       //  *     *
+       //   *   *
+        //   * *
+       //     *
+ </details>    
+<details>    
+  <summary>17. Star Hollow Diamond</summary>
+     
+      
+          // **********
+          // ****  ****
+          // ***    ***
+          // **      **
+          // *        *
+          // *        *
+          // **      **
+          // ***    ***
+          // ****  ****
+          // **********
+ </details>    
+<details>    
+  <summary>18. Fancy Pattern </summary>
+     
+      
+              // 1
+              // 2*2
+              // 3*3*3
+              // 4*4*4*4
+              // 5*5*5*5*5
+              // 5*5*5*5*5
+              // 4*4*4*4
+              // 3*3*3
+              // 2*2
+              // 1
+ </details>    
+<details>    
+  <summary>19. Alphabet palindrome Pyramid </summary>
+     
+      
+             // A
+             // ABA
+             // ABCBA
+             // ABCDCBA
+             // ABCDEDCBA
+
+ </details>    
+  <details>    
+  <summary>*20. Numeric Hollow Inverted Half Pyramid</summary>
+
+         // * * * * *   
+         // *     *   
+         // *   *   
+         // * *  
+         // *  
+ </details>  
+
+ <details>    
+  <summary>*21. Numerice Palindrome Equilateral Pyramid</summary>
+
+        //     1
+        //   1 2 1
+      //   1 2 3 2 1 
+     //  1 2 3 4 3 2 1
+    // 1 2 3 4 5 4 3 2 1 
+
+ </details>  
+ <details>    
+  <summary>*22.Fancy Pattern</summary>
+
+        //********1********
+        //*******2*2*******
+      //  ******3*3*3****** 
+     //   *****4*4*4*4*****
+    //    ****5*5*5*5*5****  
+
+ </details>  
+
+  <details>    
+  <summary>*23.Solid Half Diamond Pyramid </summary>
+
+        // *
+        // * *
+        // * * *
+        // * * * * 
+        // * * * * *
+        // * * * * 
+        // * * *
+        // * *
+        // *
+ </details> 
+  <details>    
+  <summary>*24.Fancy Pattern #3 </summary>
+
+        // *
+        // * 1 *
+        // * 1 2 1 *
+        // * 1 2 3 2 1 *  
+        // * 1 2 1 *
+        // * 1 * 
+        // *
+ </details> 
+  <details>    
+  <summary>*25.Fancy Pattern #2 </summary>
+
+        // *
+        // 2*3
+        // 4*5*6
+        // 7*8*9*10
+        // 7*8*9*10
+        // 4*5*6 
+        // 2*3
+        // 1
+ </details> 
+  <details>    
+  <summary>*26.Floyd's Triangle Pattern </summary>
+
+        // 1
+        // 2 3
+        // 4 5 6
+        // 7 8 9 10
+        // 11 12 13 14 15
+        // 16 17 18 19 20 21
+        // 22 23 24 25 26 27 28 
+        // 1
+ </details> 
+  <details>    
+  <summary>*27.Pascal's Triangle Pattern </summary>
+
+        // 1
+        // 1 1
+        // 1 2 1
+        // 1 3 3 1
+        // 1 4 6 4 1
+        // 1 5 10 10 5 1
+        // 1 6 15 20 15 6 1
+ </details> 
+
+  <details>    
+  <summary>*28.Butterfly Pattern </summary>
+
+        // *                 *
+        // * *             * *
+        // * * *         * * *
+        // * * * *     * * * *
+        // * * * * * * * * * *
+        // * * * * * * * * * *
+        // * * * *     * * * *
+        // * * *         * * *
+        // * *             * *
+        // *                 *
+ </details> 
+
+
 ## Linked List
 
 1. Printing Linked List

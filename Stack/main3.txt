@@ -1,9 +1,0 @@
-✴️ Practicle :- go to main2.cpp file
-
-1️⃣ Question: Min Stack (leetcode)
-    🔗https://leetcode.com/problems/min-stack/
-2️⃣ Question: Longest Vaild Parentheses (leetcode)
-   🔗https://leetcode.com/problems/longest-valid-parentheses/
-3️⃣ Question: Next Smaller Element
-4️⃣ Question: Prev Smaller Element
-5️⃣ Question: Largest Rectangular Area in Histogram
