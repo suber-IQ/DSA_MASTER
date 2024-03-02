@@ -25,7 +25,7 @@
 17. Add N numbers from user
 18. Printing 1 to N but only odd numbers
 
-## Pattern (Basic of Programming Solution - pattern.cpp)
+## Pattern (02_Basic of Programming Solution - pattern.cpp)
 
  <details>    
   <summary>1. Solid rectangle star pattern </summary>
@@ -288,7 +288,7 @@
   <details>    
   <summary>*25.Fancy Pattern #2 </summary>
 
-        // *
+        // 1
         // 2*3
         // 4*5*6
         // 7*8*9*10
@@ -307,7 +307,6 @@
         // 11 12 13 14 15
         // 16 17 18 19 20 21
         // 22 23 24 25 26 27 28 
-        // 1
  </details> 
   <details>    
   <summary>*27.Pascal's Triangle Pattern </summary>
@@ -335,7 +334,46 @@
         // * *             * *
         // *                 *
  </details> 
+  <details>    
+  <summary>*29. Numeric Hollow Half Pyramid </summary>
 
+        // 1
+        // 1  2
+        // 1    3
+        // 1      4
+        // 1 2 3 4  5
+ </details> 
+  <details>    
+  <summary>*29. Numeric Hollow Inverted Half Pyramid </summary>
+
+        // 1 2 3 4 5
+        // 2     5
+        // 3   5
+        // 4 5
+        // 5 
+ </details> 
+
+
+### Function
+
+1. Write a function to display area of Circle
+2. Find number is Even or Odd
+3. Find factorial of a number
+4. Check. Number is prime or not
+5. Print all Prime number from 1 to N.
+6. Print all digits in an Interger
+7. Create a number using digits.
+8. Print number of set bits.
+9. Print binary equivalent of a Decimal Number
+10. Convert distance in KM to MILES
+11. Reverse an Integer
+12. Set the ith bit
+13. Convert celsius to Fahrenheit
+14. Sum of Even no. upto N.
+15. Write a function of Students & Grade Problem
+16. Counting From 1 to N.
+17. Find max of 3 numbers
+18. Write a Function to add 2 numbers.
 
 ## Linked List
 

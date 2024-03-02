@@ -199,6 +199,48 @@ int main(){
   //     cout << "* ";
   //   cout << endl;
   //  }
+// ❓ 1️⃣0️⃣ Numerice Full Pyramid
+
+        //     1
+        //   2 3 2
+      //   3 4 5 4 3 
+     //  4 5 6 7 6 5 4
+    // 5 6 7 8 9 8 7 6 5 
+
+    // int n;
+    // cout << "Enter n: " << endl;
+    // cin>>n;
+
+    // for(int i = 0; i < n; ++i){
+    //     // space
+    //     for(int j = 0; j < n-i-1; ++j){
+    //       cout << " ";
+    //     }
+
+    //     // counting
+    //      int count = i + 1;
+    //     for(int j = 0; j < i + 1; ++j){
+    //         cout << count;
+    //         count++;
+    //     }
+
+    //     //reverse counting
+    //       int reverse = 2 * i;
+    //     for(int j = 0; j < i; ++j){
+    //          cout << reverse;
+    //          reverse--;
+    //     }
+
+    //     cout << endl;
+    // }
+
+// ❓ 1️⃣1️⃣ Numerice Hollow Full Pyramid
+
+
+
+
+
+
 
 // ❓ 1️⃣2️⃣ Hollow Square Pattern
 // ****
@@ -257,29 +299,29 @@ int main(){
 //  *     * 
 // *********
 
-int n;
-cout << "Enter n: " << endl;
-cin>>n;
+// int n;
+// cout << "Enter n: " << endl;
+// cin>>n;
 
 
-for(int i = 0; i < n; ++i){
-  int k = 0;
-   for(int j = 0; j < (2*n - 1); ++j){
-      if(j < n-i-1 ){
-        cout << " ";
-      }else if(k < 2 * i + 1){
-        if(k==0 || k == 2*i || i == n - 1){
-        cout << "*";
-        }else{
-          cout << " ";
-        }
-        k++;
-      }else{
-        cout << " ";
-      }
-   }
-   cout << endl;
-}
+// for(int i = 0; i < n; ++i){
+//   int k = 0;
+//    for(int j = 0; j < (2*n - 1); ++j){
+//       if(j < n-i-1 ){
+//         cout << " ";
+//       }else if(k < 2 * i + 1){
+//         if(k==0 || k == 2*i || i == n - 1){
+//         cout << "*";
+//         }else{
+//           cout << " ";
+//         }
+//         k++;
+//       }else{
+//         cout << " ";
+//       }
+//    }
+//    cout << endl;
+// }
 
 
 
