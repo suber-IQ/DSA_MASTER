@@ -4,7 +4,7 @@
 
 # ***Question***
 
-## Flowchart & Pseudocode (01_Basic of Programming)
+## 🎏Flowchart & Pseudocode (01_Basic of Programming)
 
 1. Find Circumference of a Circle.
 2. Addtion of Two Number.
@@ -25,7 +25,7 @@
 17. Add N numbers from user
 18. Printing 1 to N but only odd numbers
 
-## Pattern (02_Basic of Programming Solution - pattern.cpp)
+## 🎏Pattern (02_Basic of Programming Solution - pattern.cpp)
 
  <details>    
   <summary>1. Solid rectangle star pattern </summary>
@@ -344,7 +344,7 @@
         // 1 2 3 4  5
  </details> 
   <details>    
-  <summary>*29. Numeric Hollow Inverted Half Pyramid </summary>
+  <summary>*30. Numeric Hollow Inverted Half Pyramid </summary>
 
         // 1 2 3 4 5
         // 2     5
@@ -374,8 +374,34 @@
 16. Counting From 1 to N.
 17. Find max of 3 numbers
 18. Write a Function to add 2 numbers.
+19.Number System- Binary,hexadecimal,Decimal &&octa
 
-## Linked List
+## 🎏Array - (03)
+
+1. Print Array (lecture1.cpp ...)
+2. take 5 element i/p in array print their doubles
+3. given random number of array to change from 1.
+- **Memset Function** -> what,apply,use (Homework)
+- *if array in no element print array is output garbage value*
+4. check remaining number of array?
+5. initialise of 0 or another.. all array of element
+6. Linear Search in Array
+7. Count 0's and 1's in Array
+8. Maximum number in an array
+9. Minimum number in an array
+10. Extreme Print in Array
+11. Reverse an Array
+- Swap function implement 3 way (Homework)
+
+###  🎏Vector 
+1. Find Unique Element (every element occurs twice except one)
+2. Union of 2 arrays
+3. Intersection of 2 arrays
+4. Union (with duplicate)
+
+
+
+## 🎏Linked List
 
 1. Printing Linked List
 2. Insert At Head
@@ -415,7 +441,7 @@
 33. Merge Node in between zeroes (Leetcode)
 
 ---
-## Stack
+## 🎏Stack
 
 1. Reverse String :- "tiger" 
 2. Print Middle element on stack  {20,30,40,50,60} ↪️ Output:- 40 
