@@ -317,7 +317,6 @@ int main()
 
       printVector(arr);
 
-cout << endl;
 
 
 
