@@ -398,6 +398,13 @@
 2. Union of 2 arrays
 3. Intersection of 2 arrays
 4. Union (with duplicate)
+5. Pair Sum
+6. *Triplet sum
+7. Fourth sum
+8. Sort 0's & 1's
+9. *left rotate an array by 1 element
+10. *Majority Element in an Array
+11. *Buy & sell stock -> level 1
 
 
 

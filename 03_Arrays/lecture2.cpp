@@ -51,6 +51,91 @@ void unionDuplicate(vector<int> &ans,int a[],int b[],int sizea,int sizeb){
 
 }
 
+void pairSum(vector<int> arr, int sum) {
+  for (int i = 0; i < arr.size(); ++i) {
+    int element = arr[i];
+    for (int j = i + 1; j < arr.size(); ++j) {
+      if ((element + arr[j]) == sum) {
+        cout << "(" << element << "," << arr[j] << ")" << endl;
+      }
+    }
+  }
+}
+
+void tripleSum(vector<int> arr,int sum){
+      for(int i = 0; i < arr.size(); ++i){
+            int ielement = arr[i];
+            for(int j = i + 1; j < arr.size(); ++j){
+                  int jelement = arr[j];
+                   for(int k = j + 1; k < arr.size(); ++k){
+                      if((ielement + jelement + arr[k]) == sum){
+                      cout << "(" << ielement << "," << jelement << "," << arr[k] << ")" << endl;
+                      }
+                   }
+            }
+      }
+}
+void fourSum(vector<int> arr, int sum) {
+  for (int i = 0; i < arr.size(); ++i) {
+    int ielement = arr[i];
+    for (int j = i + 1; j < arr.size(); ++j) {
+      int jelement = arr[j];
+      for(int k = j + 1; k < arr.size(); ++k){
+        int kelement = arr[k];
+         for(int m = k + 1; m < arr.size(); ++m){
+           int melement = arr[m];
+      if ((ielement + jelement + kelement + melement) == sum) {
+        cout << "(" << ielement << "," << jelement << "," << kelement << "," << melement << ")" << endl;
+      }
+         }
+      }
+    }
+  }
+
+}
+
+void sort(vector<int> &arr){
+
+  int s = 0;
+  int e = arr.size() - 1;
+
+while(s < e){
+      if(arr[s] == 1 && arr[e] == 0){
+            swap(arr[s],arr[e]);
+            s++;
+            e--;
+      }else{
+            if(arr[s] == 0) s++;
+            if(arr[e] == 1) e--;
+      }
+}
+}
+
+
+void sort1(vector<int> &arr){
+
+  int s = 0;
+  int e = arr.size() - 1;
+  int i = 0;
+
+// while(s <= e){
+while(i != e){
+     if(arr[i] == 0){
+        swap(arr[i],arr[s]);
+        i++;
+        s++;
+     }
+     else{
+        swap(arr[i],arr[e]);
+        e--;
+     }
+}
+
+}
+   
+   
+
+
 int main()
 {
 
@@ -198,5 +283,42 @@ int main()
       // unionDuplicate(ans,a,b,sizea,sizeb);
        
       // printVector(ans);
+
+       // 🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟
+
+      // ❓ 5️⃣ Pair Sum
+
+      // vector<int> arr{1, 3, 5, 7};
+      // int sum = 8;
+      // pairSum(arr, sum);
+
+      // ❓6️⃣ Triplet Sum
+
+      // vector<int> arr{10,20,30,40};
+
+      // int sum = 80;
+
+      // tripleSum(arr,sum);
+
+
+      // ❓ 7️⃣ Fourth Sum
+
+      // vector<int> arr{1,2, 3, 5, 7,9,6};
+
+      // int sum = 19;
+      // fourSum(arr,sum);
+
+      // ❓8️⃣ Sort 0's & 1's
+
+      vector<int> arr{1,0,1,1,0,1,0,1,0,0};
+
+      // sort(arr);
+      sort1(arr);
+
+      printVector(arr);
+
+
+
+
       return 0;
 }
