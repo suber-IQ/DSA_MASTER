@@ -405,6 +405,29 @@
 9. *left rotate an array by 1 element
 10. *Majority Element in an Array
 11. *Buy & sell stock -> level 1
+12. *Sort 0's ,1's & 2's
+13. *Move all -ve no to one side of array
+14. *find duplicate element
+15. *find missing element
+16. *find first repeating element
+17. *find common element in 3 arrays
+18. *factorial of large no.
+
+
+### 🎏2D array
+ - formula :- `c * i + j` **(c = no of columns, r = no of rows, i = ith row, j = jth row)**
+ 1. Row-sum print
+ 2. Column-sum print
+ 3. linear search 2D array
+ 4. Maxmium number 2D array
+ 5. Minmium number 2D array
+ 6. Transpose a matrix (row -> col & col -> row)
+ 7. *Rotate matrix by 90 degree
+ 8. *Spiral print
+ 9. *wave print / zig zig print
+ 10. *median 2D Array
+
+### 🎏2D or more vector
 
 
 
