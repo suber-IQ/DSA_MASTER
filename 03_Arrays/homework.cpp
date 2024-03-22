@@ -1,5 +1,6 @@
 #include<iostream>
 #include<vector>
+#include<set>
 #include<algorithm>
 using namespace std;
 
@@ -109,6 +110,63 @@ void missing1(vector<int> arr){
      }
 
 }
+int repeating(int a[],int n){
+    unordered_map<int, int>hash;
+
+        for(int i = 0; i < n; ++i){
+      hash[a[i]]++;
+    }
+
+    for(int i = 0; i < n; ++i){
+      if(hash[a[i]] > 1){
+            return i + 1;
+      }
+    }
+  return -1;
+}
+
+vector<int> commonElements(int A[],int B[],int C[],int n1,int n2,int n3){
+           vector<int>ans;
+             set<int> st;
+      int i,j,k;
+      i = j = k = 0;
+      while(i < n1 && j < n2 && k < n3){
+            if(A[i] == B[j] && B[j] == C[k]){
+                  st.insert(A[i]);
+                  i++;
+                  j++;
+                  k++;
+            }else if(A[i] < B[j]){
+                  i++;
+            }else if(B[j] < C[k]){
+                  j++;
+            }else{
+                  k++;
+            }
+      }
+      for(auto v:st)
+          ans.push_back(v);
+      return ans;
+
+}
+
+void wavePrint(vector<vector<int> > arr){
+      int m = arr.size();
+      int n = arr[0].size();
+
+      for(int j = 0; j < n; j++){
+            if((j & 1) == 0){
+                  for(int i = 0; i < m; i++){
+                        cout << arr[i][j] << " ";
+                  }
+            }else{
+                  for(int i = m - 1; i >= 0; i--){
+                        cout << arr[i][j] << " ";
+                  }
+            }
+      }
+}
+
 
 int main(){
 
@@ -164,15 +222,56 @@ int main(){
 
 // ❓ 4️⃣ Missing Element from an Array with duplicates
 
-vector<int> arr{1,3,5,3,4};
+// vector<int> arr{1,3,5,3,4};
 
 // missing(arr);
   // 🎉 TC:- O(n)
 // 🎉 SC :- O(1)
-missing1(arr);
+// missing1(arr);
   // 🎉 TC:- O(n)
 // 🎉 SC :- O(1)
 
+// 🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠
 
+// ❓ 5️⃣ Find first Repeating Element
+
+//    int n = 7;
+//    int a[] = {1,5,3,4,3,5,6};
+
+
+//     cout << repeating(a,n) << endl;
+
+// 🎉 TC:- O(n)
+// 🎉 SC :- O(n)
+
+// 🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠
+
+// ❓ 6️⃣ Common Elements in 3 Sorted Array
+
+//    int A[] = {1,5,10,20,40,80};
+//    int B[] = {6,7,20,80,100};
+//    int C[] = {3,4,15,20,30,70,80,120};
+   
+//    int n1 = 6;
+//    int n2 = 5;
+//    int n3 = 8;
+
+//    vector<int> result = commonElements(A,B,C,n1,n2,n3);
+
+//    printVector(result);
+
+// 🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠🌠
+
+// ❓ 7️⃣ *wave print / zig zig print
+
+vector<vector<int>> arr{
+      {1,2,3,4},
+      {5,6,7,8},
+      {9,10,11,12}
+};
+
+wavePrint(arr);
+
+  
       return 0;
 }
