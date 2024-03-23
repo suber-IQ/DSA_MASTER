@@ -427,7 +427,17 @@
  9. *wave print / zig zig print
  10. *median 2D Array
 
-### 🎏2D or more vector
+## 🎏Searching and Sorting - (04)
+
+1. Binary Search
+2. Find the first occurrence of an element
+3. Find the last occurrence of an element
+4. Total no. occurrence 
+5. *Find missing element 
+6. Peak element in a Mountain Array
+7. *Find Pivot using Binary Search
+8. *Search in a rotated & Sorted Array
+9. *SquareRoot using binary search
 
 
 
