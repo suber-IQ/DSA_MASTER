@@ -437,7 +437,12 @@
 6. Peak element in a Mountain Array
 7. *Find Pivot using Binary Search
 8. *Search in a rotated & Sorted Array
-9. *SquareRoot using binary search
+9. *SquareRoot of a number using Binary search
+10. Binary Search into 2D matrix
+   - `formula: ` i = x/c (i = rowIndex), j = x % c (j = colIndex) and x = c * i + j;
+11. *Search in a nearly sorted array in log time
+12. *Divison of 2 no. using Binary Search
+13. *Find odd occuring element using Binary Search
 
 
 
