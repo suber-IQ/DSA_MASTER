@@ -442,7 +442,17 @@
    - `formula: ` i = x/c (i = rowIndex), j = x % c (j = colIndex) and x = c * i + j;
 11. *Search in a nearly sorted array in log time
 12. *Divison of 2 no. using Binary Search
-13. *Find odd occuring element using Binary Search
+13. *Find the odd occuring element in an array using Binary Search
+14. *Find pairs with difference 'K' in an array
+15. *Find 'k' closest element to a given value in an array
+16. *Exponential Search
+17. *UnBounded Binary Search
+- `Advance B.S : `
+18. *Book Allocation
+19. *Painter Partition
+20. *Aggressive Cow
+21. *Roti / Prata SPOJ
+22. *Eko SPOJ
 
 
 
