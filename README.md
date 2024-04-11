@@ -443,7 +443,7 @@
 11. *Search in a nearly sorted array in log time
 12. *Divison of 2 no. using Binary Search
 13. *Find the odd occuring element in an array using Binary Search
-14. *Find pairs with difference 'K' in an array
+14. *Find pairs with difference 'K' in an array[Leetcode]
 15. *Find 'k' closest element to a given value in an array
 16. *Exponential Search
 17. *UnBounded Binary Search
@@ -455,6 +455,45 @@
 22. *Eko SPOJ
 - `Sorting :- `
 1. Selection Sort
+2. Bubble Sort
+3. Insertion Sort
+
+## 🎏Char Arrays & String - (05)
+
+1. Length of string
+2. Reverse a string
+3. Replace all spaces ('@')
+4. Palindrome
+5. convert lowercase to uppercase 
+6. convert uppercase to lowercase
+7. Compare string
+8. Remove All Adjacent duplicates in string[leetcode]
+9. Remove all Occurrences of a Substring[leetcode]
+- `Homework: ` find(),erase()
+10. Valid Palindrome II [leetcode]
+11. Minimum Time Difference[leetcode]
+12. Palindromic Substrings[leetcode]
+13. *Valid Anagram
+14. *Reverse only letters
+15. *Longest common Prefix
+16. *Reverse Vowels of a string
+17. *Isomorphic strings
+18. *Reorgansie strings
+19. *Group Anagrams
+20. *Longest Palindrome substring
+21. *Find index of first Occurence in a string
+22. *String to Integer
+23. *String Compressior
+24. *Integer to Roman
+25. *Zigzag Converssion
+- `No Solution:- `
+26. *Largest Number
+27. *Custom sort string
+28. *Verify Alien Dictionary
+29. *Longest word in Dictionary through deleting
+
+
+
 
 
 
