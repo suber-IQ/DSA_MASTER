@@ -6,5 +6,7 @@
             "string_view": "cpp",
             "initializer_list": "cpp",
             "utility": "cpp"
-      }
+      },
+      "terminal.integrated.fontWeightBold": "normal",
+      "editor.fontWeight": "normal"
 }
