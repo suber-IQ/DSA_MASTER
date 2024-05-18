@@ -492,7 +492,17 @@
 28. *Verify Alien Dictionary
 29. *Longest word in Dictionary through deleting
 
-
+## 🎏 Recursion & Backtracking - (07)
+1. Factorial
+2. print counting
+3. fibonacci series
+4. *power of 2
+5. Find no. of ways to reach nth stair(1 stair at a time, 2 stair at a time)
+6. print array
+7. find max number of array
+8. find manimum number of array
+9. find key into string
+10. given a number with print digit into array
 
 
 
