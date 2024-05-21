@@ -503,7 +503,10 @@
 8. find manimum number of array
 9. find key into string
 10. given a number with print digit into array
-
+11. check if array is sorted or not sorted
+12. Binary search
+13. *Subsequences of a string
+14. *Subsequences (using by Bitmasking)
 
 
 
