@@ -507,6 +507,9 @@
 12. Binary search
 13. *Subsequences of a string
 14. *Subsequences (using by Bitmasking)
+15. *You have to tell the minimum number of elements required to reach target sum.
+16. *Cut into Segments
+17. *Max sum of non-adjacent elements
 
 
 
