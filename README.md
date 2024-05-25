@@ -492,7 +492,7 @@
 28. *Verify Alien Dictionary
 29. *Longest word in Dictionary through deleting
 
-## 🎏 Recursion & Backtracking - (07)
+## 🎏 Recursion - (07)
 1. Factorial
 2. print counting
 3. fibonacci series
@@ -510,6 +510,19 @@
 15. *You have to tell the minimum number of elements required to reach target sum.
 16. *Cut into Segments
 17. *Max sum of non-adjacent elements
+18. *Last Occurence of char
+19. *Reverse a string RE
+20. *Add Strings R.E [LeetCode]
+21. *Palindrome Check (RE)
+22. *Remove all Occurrences of a substring
+23. *Print All Subarrays using RE
+24. *Buy & Sell Stocks
+25. *House Robber Problem
+26. *Integer to English Words
+27. *Wild Card Matching
+28. *Perfect Squares
+29. *Minimum Cost For Tickets
+30. *Number of Dice Roll With Target Sum
 
 
 
