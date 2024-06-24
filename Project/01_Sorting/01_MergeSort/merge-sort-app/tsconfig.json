@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "outDir": "merge-sort-app/dist",
+        "rootDir": "./",
+        "strict": true
+    }
+}

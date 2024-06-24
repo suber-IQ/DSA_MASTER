@@ -1,4 +1,5 @@
 #include<iostream>
+#include<vector>
 using namespace std;
 
 
@@ -78,6 +79,52 @@ bool isPalindrome(string& s,int start,int end){
     return isPalindrome(s,start+1,end-1);
 }
 
+void removeOcr(string& s,string part){
+    int found = s.find(part);
+    if(found != string::npos){
+        // found part of string into s
+        string left_part = s.substr(0,found);
+        string right_part = s.substr(found+part.length(),s.length());
+        s = left_part + right_part;
+        removeOcr(s,part);
+
+    }else{
+        // base case
+        return;
+
+    }
+}
+
+string removeOccurrences(string s,string part){
+    removeOcr(s,part);
+    return s;
+}
+
+void printSubArray_util(vector<int>& nums,int start,int end){
+    //base case
+    if(nums.size() == end){
+        return;
+    }
+
+    //1 case sol.
+    for(int i = start; i<=end;++i){
+        cout << nums[i] << " ";
+    }
+    cout << endl;
+
+    //RE
+    printSubArray_util(nums,start,end+1);
+
+
+}
+
+void printSubArray(vector<int>& nums){
+    for(int start = 0; start < nums.size(); start++){
+        int end = start;
+        printSubArray_util(nums,start,end);
+    }
+}
+
 int main(){
 
     //  1️⃣ Last Occurence of a char (RF)
@@ -122,12 +169,39 @@ int main(){
 
        //  4️⃣ *Palindrome check (RE)
     //    string s = "racecar";
-       string s = "sumit";
+    //    string s = "sumit";
 
-       cout << isPalindrome(s,0,s.size()-1) << endl;
+    //    cout << isPalindrome(s,0,s.size()-1) << endl;
 
     // T.C = O(n)
     // S.C = O(n)
+    //  5️⃣ Remove all occurences of a Substring
+
+    // string s = "daabcbaabcbc";
+    // string part = "abc";
+
+
+    // string result = removeOccurrences(s,part);
+
+    // cout << result << endl;
+
+    // T.C = O(n2)
+    // S.C = O(n/m)
+
+    //  6️⃣ Print all Subarrays Using RE
+
+    // vector<int>nums{1,2,3,4,5};
+
+    // printSubArray(nums);
+
+    // T.C = O(n2)
+    // S.C = O(n)
+
+     //  7️⃣ Buy & Sell Stocks
+
+
+
+
 
 
     return 0;

@@ -523,6 +523,13 @@
 28. *Perfect Squares
 29. *Minimum Cost For Tickets
 30. *Number of Dice Roll With Target Sum
+    
+## 🎏 Divide & Conquer - (08)
+1. Merge 2 sorted Arrays
+2. *Merge Sort (simple) & (** in-place merge sort)
+3. *Inversion count (H/w)
+4. *Quick Sort
+
 
 
 
