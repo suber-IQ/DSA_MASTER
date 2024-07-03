@@ -529,7 +529,7 @@
 2. *Merge Sort (simple) & (** in-place merge sort)
 3. *Inversion count (H/w)
 4. *Quick Sort
-
+5. *print permutation of string
 
 
 
