@@ -530,6 +530,7 @@
 3. *Inversion count (H/w)
 4. *Quick Sort
 5. *print permutation of string
+6. *Rat in a Maze Code
 
 
 
