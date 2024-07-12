@@ -531,7 +531,17 @@
 4. *Quick Sort
 5. *print permutation of string
 6. *Rat in a Maze Code
-
+7. N-Queen
+8. Generate Parenthesis
+9. Phone Keypad problem
+10. Sudoku Solver Problem
+11. *Max Sub Array Sum (Assignments)
+12. *Quick Sort [End Element as Pivot] 
+13. *Combination Sum
+14. *Combination sum-II
+15. *Permutation-II
+16. *Beautifull Arrangement
+17. *Distribute Repeating Integers
 
 
 ## 🎏Linked List
