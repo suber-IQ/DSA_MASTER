@@ -11,7 +11,6 @@ void print(int *arr,int n){
 
 void selectionSortAce(int *arr,int n){
 
-for(int round = 1; round < n; round++){
   
   for(int i = 0; i < n - 1; ++i){
      int index = i;
@@ -22,7 +21,6 @@ for(int round = 1; round < n; round++){
      }
      swap(arr[index],arr[i]);
   }
-}    
 
 }
 
