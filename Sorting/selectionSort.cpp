@@ -54,6 +54,13 @@ int main(){
 
     print(arr,n);
 
+     // 🎉 S.C : Auxiliary: O(1)
+     // 🎉 S.C : Total: O(n)
+
+     // 🎉 T.C : O(n^2)  worst case
+     // 🎉 T.C : Ω(n^2)  Best case
+     // 🎉 T.C : Θ(n^2)  Avg case
+
 
     // 👉 Selection sort Descending order
 
