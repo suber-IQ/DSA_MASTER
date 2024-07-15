@@ -1,5 +1,4 @@
- Insertion Sort in C++
-
+👉 Insertion Sort in C++
 
 1: Use Insertion Sort Algorithm to sort the array of integers in decreasing order.
 
