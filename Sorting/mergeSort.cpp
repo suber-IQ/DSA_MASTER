@@ -74,7 +74,6 @@ int main(){
 
     printArr(arr,n);
 
-
-
     return 0;
+
 }
