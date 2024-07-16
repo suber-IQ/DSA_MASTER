@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/media/sumit/E Drive/DSA_MASTER/07_Recursion",
-      "program": "/media/sumit/E Drive/DSA_MASTER/07_Recursion/build/Debug/outDebug",
+      "cwd": "/media/sumit/E Drive/DSA_MASTER/08_Divede&Conquer",
+      "program": "/media/sumit/E Drive/DSA_MASTER/08_Divede&Conquer/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
