@@ -531,7 +531,7 @@
 4. *Quick Sort
 5. *print permutation of string
 6. *Rat in a Maze Code
-7. N-Queen
+7. *N-Queen [Not have optimization solns]
 8. Generate Parenthesis
 9. Phone Keypad problem
 10. Sudoku Solver Problem
