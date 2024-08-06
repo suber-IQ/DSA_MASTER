@@ -374,7 +374,7 @@
 16. Counting From 1 to N.
 17. Find max of 3 numbers
 18. Write a Function to add 2 numbers.
-19.Number System- Binary,hexadecimal,Decimal &&octa
+19. Number System- Binary,hexadecimal,Decimal &&octa
 
 ## 🎏Array - (03)
 
@@ -573,17 +573,18 @@
 
 23. Remove duplicate from a UnSorted on LL // :- Time Complexity O(n);
 24. Merge 2 Sorted Linked List
-25. Clone a Linked List with Random Pointer
+25. Clone(copy) a Linked List with Random Pointer
 26. Merge Sort in Linked List
 27. Flatten a Linked List
 28. Print kth node from end of Linked List
 29. Intersection point of 2 Linked List
 30. Rotate List (Leetcode)
 31. Delete n nodes after m nodes (Leetcode)
-32. Find min/max number between critical points(Leetcode)
+32. Find min/max number between critical points(Leetcode-2058)
 33. Merge Node in between zeroes (Leetcode)
+34. Sort List Using Merge Sort
 
----
+
 ## 🎏Stack
 
 1. Reverse String :- "tiger" 
