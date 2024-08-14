@@ -185,6 +185,31 @@ void deleteNode(int position,Node* &head,Node* &tail){
 
 }
 
+Node* reverse(Node* &prev,Node* &curr) {
+    // base case
+    if(curr == NULL){
+        //LL reverse end on node (curr)
+        return prev;
+    }
+
+    Node* Nex = curr -> next;
+    curr -> next  = prev;
+
+   return reverse(curr,Nex);
+}
+Node* reverseLoop(Node* &head){
+    Node* prev = NULL;
+    Node* curr = head;
+
+    while(curr != NULL){
+        Node* temp = curr -> next;
+        curr-> next = prev;
+        prev = curr;
+        curr = temp;
+    }
+    return prev;
+
+}
 
 int main(){
 
@@ -263,18 +288,67 @@ int main(){
 
 //   ❓ Delete Node
 
+// Node* head = NULL;
+// Node* tail = NULL;
+
+// insertAtTail(head,tail,20);
+// insertAtTail(head,tail,40);
+// insertAtTail(head,tail,60);
+// insertAtTail(head,tail,70);
+// insertAtTail(head,tail,80);
+// insertAtTail(head,tail,100);
+// int pos = 6;
+// deleteNode(pos,head,tail);
+// print(head);
+
+// 🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟
+
+//   ❓ Reverse Node using recursive L.L
+
+
+// Node* head = NULL;
+// Node* tail = NULL;
+
+// for(int i = 2; i < 12; i += 2){  // give multiple data
+//     int data = i * 10;
+//     insertAtTail(head,tail,data);
+// }
+
+// cout << "Before print: " << endl;
+// print(head);
+
+// Node* prev = NULL;
+// Node* curr = head;
+// head = reverse(prev,curr);
+// cout << endl;
+
+// cout << "After print: " << endl;
+// print(head);
+// cout << endl;
+
+// 🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟
+
+//   ❓ Reverse Node using Loop L.L
+
+
 Node* head = NULL;
 Node* tail = NULL;
 
-insertAtTail(head,tail,20);
-insertAtTail(head,tail,40);
-insertAtTail(head,tail,60);
-insertAtTail(head,tail,70);
-insertAtTail(head,tail,80);
-insertAtTail(head,tail,100);
-int pos = 6;
-deleteNode(pos,head,tail);
+for(int i = 2; i < 12; i += 2){  // give multiple data
+    int data = i * 10;
+    insertAtTail(head,tail,data);
+}
+
+cout << "Before print: " << endl;
 print(head);
+
+head = reverseLoop(head);
+
+
+cout << "\nAfter print: " << endl;
+print(head);
+cout << endl;
+
 
     return 0;
 }

@@ -551,25 +551,26 @@
 3. Insert At Tail
 4. Insert At Position
 5. Delete Node
+05. Reverse Node using recursive L.L
 6. Printing doubly Linked List
 7. Insert At Head doubly Linked List
 8. Insert At Tail doubly Linked List
-9. Insert At Position doubly Linked List
+9.  Insert At Position doubly Linked List
 10. Delete Node from any position doubly Linked List
 11. Reverse Node using recusive doubly linked list
 12. Reverse Node using simple Loop doubly linked list
 13. Find Middle of Linked List
 14. Reverse K node  
   **Detect & Delete Loop**
-15. check loop present or not on Linked List 
-16. starting point Loop on Linked List 
-18. Remove Loop on L.L
+1.  check loop present or not on Linked List 
+2.  starting point Loop on Linked List 
+3.  Remove Loop on L.L
 
-19. whether Palindrome not or yes // :- Time Complexity O(n);
-20. Remove duplicate from a Sorted on LL // :- Time Complexity O(n);
-21. Sorted 0's,1's,2's 🌟Method 1: sortZeroOneTwoWithReplacement & Method 2: sort2// :- Time Complexity O(n)
-22. Add 2 numbers represented by Linked List O(max(m,n))
- 
+4.  whether Palindrome not or yes // :- Time Complexity O(n);
+5.  Remove duplicate from a Sorted on LL // :- Time Complexity O(n);
+6.  Sorted 0's,1's,2's 🌟Method 1: sortZeroOneTwoWithReplacement & Method 2: sort2// :- Time Complexity O(n)
+7.  Add 2 numbers represented by Linked List O(max(m,n))
+
 
 23. Remove duplicate from a UnSorted on LL // :- Time Complexity O(n);
 24. Merge 2 Sorted Linked List
