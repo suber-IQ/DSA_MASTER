@@ -551,17 +551,17 @@
 3. Insert At Tail
 4. Insert At Position
 5. Delete Node
-05. Reverse Node using recursive L.L
 6. Printing doubly Linked List
 7. Insert At Head doubly Linked List
 8. Insert At Tail doubly Linked List
 9.  Insert At Position doubly Linked List
 10. Delete Node from any position doubly Linked List
-11. Reverse Node using recusive doubly linked list
-12. Reverse Node using simple Loop doubly linked list
+11. Reverse Node using recusive doubly & linear linked list
+12. Reverse Node using simple Loop doubly &linear linked list
 13. Find Middle of Linked List
-14. Reverse K node  
-  **Detect & Delete Loop**
+14. Reverse K node (🌠 VERY IMPORTANT 🌠)
+15. Is Circular Linked List check true or false (HOMEWORK)
+  **Detect & Delete Loop (8 Method solve this approach )**
 1.  check loop present or not on Linked List 
 2.  starting point Loop on Linked List 
 3.  Remove Loop on L.L
