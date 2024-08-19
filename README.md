@@ -556,7 +556,7 @@
 8. Insert At Tail doubly Linked List
 9.  Insert At Position doubly Linked List
 10. Delete Node from any position doubly Linked List
-11. Reverse Node using recusive doubly & linear linked list
+11. Reverse Node using recusive doubly  linear linked list
 12. Reverse Node using simple Loop doubly &linear linked list
 13. Find Middle of Linked List
 14. Reverse K node (🌠 VERY IMPORTANT 🌠)
