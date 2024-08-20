@@ -588,31 +588,36 @@
 
 ## 🎏Stack
 
-1. Reverse String :- "tiger" 
-2. Print Middle element on stack  {20,30,40,50,60} ↪️ Output:- 40 
-3. Insert At bottom
-4. Reverse Stack 
-5. Vaild Parentheses (Question Have at Leetcode)
-6. Sort a Stack
-7. Remove Redundant Brackets
+1. Basic Operations (push,pop,top,empty,size)
+2. Print stack elements
+3. Create Stack from scratch with help(array or linked list)
+4. Two stack in an Array(single array)
+5. Reverse String :- "tiger" 
 
-8. Min Stack (leetcode)
-9. Longest Vaild Parentheses (leetcode)
-10. Next Smaller Element
-11. Prev Smaller Element
-12. Largest Rectangular Area in Histogram
-13. Minimum Bracket Reversal 
-14. Remove All Adjacent Duplicates in String
-15. Celebrity Problem 
-16. Max rectangle in Binary Matrix with all 1s [DP will be used, can be postponed]
-17. Next greater element in Linked List
-18. N Stacks in an Array
-19. Online Stock Span [leetcode]
-20. Check If Word is Vaild After Substitutions [Leetcode]
-21. Decode Strings [Leetcode]
-22. Car Fleet - I [Leetcode]
-23. Car Fleet - II [Leetcode]
-24. Simplify Path [Leetcode]
+6. Print Middle element on stack(without removing element)  {20,30,40,50,60} ↪️ Output:- 40 
+7. Insert At bottom
+8. Reverse Stack 
+9. Vaild Parentheses (Question Have at Leetcode)
+10. Sort a Stack
+11. Remove Redundant Brackets
+
+12. Min Stack (leetcode)
+13. Longest Vaild Parentheses (leetcode)
+14. Next Smaller Element
+15. Prev Smaller Element
+16. Largest Rectangular Area in Histogram
+17. Minimum Bracket Reversal 
+18. Remove All Adjacent Duplicates in String
+19. Celebrity Problem 
+20. Max rectangle in Binary Matrix with all 1s [DP will be used, can be postponed]
+21. Next greater element in Linked List
+22. N Stacks in an Array
+23. Online Stock Span [leetcode]
+24. Check If Word is Vaild After Substitutions [Leetcode]
+25. Decode Strings [Leetcode]
+26. Car Fleet - I [Leetcode]
+27. Car Fleet - II [Leetcode]
+28. Simplify Path [Leetcode]
 
 
 
