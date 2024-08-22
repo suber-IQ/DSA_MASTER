@@ -354,7 +354,7 @@
  </details> 
 
 
-### Function
+### 🎏Function
 
 1. Write a function to display area of Circle
 2. Find number is Even or Odd
@@ -597,7 +597,7 @@
 6. Print Middle element on stack(without removing element)  {20,30,40,50,60} ↪️ Output:- 40 
 7. Insert At bottom
 8. Reverse Stack 
-9. Vaild Parentheses (Question Have at Leetcode)
+9. Vaild Parentheses [Leetcode]
 10. Sort a Stack
 11. Remove Redundant Brackets
 
