@@ -601,8 +601,8 @@
 10. Sort a Stack
 11. Remove Redundant Brackets
 
-12. Min Stack (leetcode)
-13. Longest Vaild Parentheses (leetcode)
+12. Min Stack [leetcode]
+13. Longest Vaild Parentheses [leetcode]
 14. Next Smaller Element
 15. Prev Smaller Element
 16. Largest Rectangular Area in Histogram
