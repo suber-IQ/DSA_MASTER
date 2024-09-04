@@ -620,7 +620,15 @@
 28. Simplify Path [Leetcode]
 
 
+## 🎏Queues
 
+1. Queue operation with STL
+2. self create Queue (push,pop,getFront(),isEmpty()) using vector or L.L
+3. Cir Queue operation with Self create
+4. i/p restricted Queue (push_back,pop_back,pop_front)
+5. o/p restricted Queue (push_front,push_back,pop_front)
+6. Doubly Ended Queue (deque) (pushRear,pushFront,popRear,popFront)
+7. 
 
 
 
