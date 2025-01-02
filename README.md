@@ -628,9 +628,185 @@
 4. i/p restricted Queue (push_back,pop_back,pop_front)
 5. o/p restricted Queue (push_front,push_back,pop_front)
 6. Doubly Ended Queue (deque) (pushRear,pushFront,popRear,popFront)
-7. 
+7. Reverse Queue
+8. Reverse k element of Queue
+9. InterLeave first & second half of Queue
+10. First -ve integer in every window of size k
+11. Non-Repeated character in a stream
+12. First Non-Repeated character in a stream
+13. Circular tour/Gas station
+14. Sliding Window Maximum
+   - PFA The List of Queue Assignment Questions:  
+15. Implement Queue using Stack
+16. Implement Stacks using Queue
+17. Implement "k" queues in an array
+18. Sum of min/max element of all subarray of size "k" [Similar: LC- 239. Sliding window maximum] 
 
 
+## 🎏Trees
+
+1. Build a Tree with Recursive
+2. Print Level Order Traversal
+3. Inorder(LNR) & PreOrder(NLR) & PostOrder(LRN)
+4. Height / Maxdeepth
+5. Diameter of Tree
+6. Check if a Binary Tree is Balanced or not
+7. Check whether BT is Sum tree or not  / Convert BT into sum tree
+8. Lowest common Ancestor
+9. Kth Ancestor
+10. Path Sum II
+11. i/p -> inorder - [3,1,4,5,2](LNR) -> preorder - [5,1,3,4,2](NLR)
+12. Create a Tree using inorder -> [40,20,10,50,30,60](LNR) - PostOrder -> [40,20,50,60,30,10](LRN)
+13. Vertical Order Traversal
+14.  Print Top View  
+15. Fast way to find Diameter of a tree[HOMEWORK]
+16. Fast way to determine that the Binary tree is balanced or not
+17. Check 2 trees are identical or not
+18. Check 2 trees are mirror of each other or not.
+19. Zig-Zag Traversal of a binary Tree
+20. Tranform to Sum tree.
+21. Diagonal traversal of a binary tree
+22. Vertical traversal of a binary tree
+23. Morris traversal of a binary tree
+24. Sum of longest bloodline of a tree
+25. k-sum path in a binary tree
+26. Max sum of non-adjacent nodes in binary tree
+27. Max timeto burn a binary tree
+28. Flatten a Binnary tree into linked list
+29. Check if a Binary Tree contains duplicate subtrees of size 2 or more
+
+## 🎏BST(Binary Search Trees)
+
+1. Insert into BST(Binary Search Tree)
+2. Find Node into BST
+3. Minimum Value in BST
+4. Maximum Value in BST
+5. Deletion in BST
+6. Validate BST
+7. LCA(lowest common Ancestor) of BST
+8. kth smallest Element
+9. Inorder traversal -> BST Create
+10. Two Sum IV -> Input is a BST
+11. BST convert Sorted DLL
+12. Sorted LL convert BST
+13. Largest BST in a Binary Tree
+14. Find inorder successor and inorder predecessor in a BST[HOMEWORK]
+15. Construct BST From preorder traversal
+16. Convert a normal BST into a Blanced BST
+17. Merge Two BST
+18. Count pairs from 2 BST whose sum is equal to given value "X"
+19. Find the median of BST in O(n) time and O(1) space
+20. Count BST nodes that lie in a given range
+21. Replace every element with the least greater element on its right
+22. Check preorder is valid or not
+23. Check whether BST contains Dead end:
+24. Flatten BST to Sorted list
+
+## 🎏Heap
+
+1. Check if tree is a heap [HOMEWORK]
+2. Merge 2 Max Heaps
+3. K Closest Point to Origin
+4. Get Biggest three rhombus sums in a grid
+5. Sliding Window Maxium
+6. Min Diff in Sum after element removal
+7. Min number of refuelling stops
 
 
+## 🎏Maps Tries
 
+1. Valid Anagram - [HOMEWORK]
+2. Find Whether Array is a subset of another array
+3. Find Union and Intersection of 2 Linked List
+4. Find 4 Element a,b,c,d in an array such that a+b = c+d
+5. Find Length of largest subarray with 0 sum
+6. Largest subarray with equal no. of Zeroes and Ones.
+7. Replace Word Leetcode
+8. Top "k" frequent words Leetcode
+9. Palindrome Pairs Leetcode
+10. Camel Case Matching Leetcode
+
+## 🎏Dynamic Programming
+
+1. Fibonacci Number
+2. Coin Change
+3. House Robber
+4. Painting fence
+5. Knapsack Problem and DP
+6. Partition Equal subset Sum
+7. Number of Dice Rolls with Target Sum
+8. Guess Number Higher or Lower II
+9. Minimum Cost Tree From Leaf Values
+10. Longest Common Subsequence [DP On String]
+11. Longest Increasing Subsequence
+12. Maximum Height by Stacking Cuboids
+
+- Linear DP - [HOMEWORK]
+  1. Perfect Squares Leetcode  
+  2. Min Cost for Tickets Leetcode
+
+- DP on Strings
+  1. Longest Palindromic SubString Leetcode
+  2. Distinct Subsequences Leetcode
+  3. Min ASCII Delete Sum for 2 Strings Leetcode
+  4. Word Break 1 and 2 Leetcode
+
+- DP on Trees
+  1. House Robber III Leetcode
+  2. Unique BST II Leetcode
+
+- DP on Intervals
+  1. Stone Games Leetcode
+  2. Burst Balloons Leetcode
+
+- LIS / LCS Variants
+  1. Intervleaving Strings Leetcode
+  2. Min Insertion steps to make a string Palindrome Leetcode
+  3. Russian Dolls Envelopes Leetcode
+  4. Min Number of Removals to make Mountain Array Leetcode
+  5. Make Array Strictly increasing Leetcode
+   
+- Buy & Sell Stocks Variants [all 5 variants] Leetcode
+  1. 1st Variant [121. Best Time to Buy and Sell Stock]
+   
+- Knapsack DP
+  1. Target Sum Leetcode
+  2. Min Swaps to make Sequences increasing Leetcode
+  3. Reducing Dishes Leetcode
+  4. Ones and Zeroes Leetcode
+   
+- MinMax DP
+  1. Predict the Winner Leetcode
+
+## 🎏Graphs
+
+1. Graph Creation
+2. Adjust list Matrix
+3. BFS
+4. DFS
+5. Check Cyclic Using BFS
+6. Check Cyclic Using DFS
+7. check Cyclic Directed Graph Using DFS
+8. Topological Sort
+9. Shortest Path
+10. Dijkstra Algo
+11. Course Schedule
+12. Word Ladder
+13. Path With Minimum Effort
+14. Bellman Ford Algo
+15. Floyd Warshall
+16. Strongly connected components
+17. Bridge in a Graph
+18. Critical Connection in a Network
+19. Prim's Algorithm - [HOMEWORK]
+20. Kruskal's Algorithm
+21. Eventual Safe States
+22. Word Ladder-2
+23. Minimum Multiplications to reach End 
+24. Number of Operations to Make Network Connected
+25. Find the City with the smallest Number of Neighbours at a Threshold Distance
+26. Accounts Merge
+
+## 🎏Greedy Algorithm [BONUS]
+## 🎏Sliding Window [BONUS]
+## 🎏Bit Manipulation [BONUS]
